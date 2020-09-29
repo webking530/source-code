@@ -1,0 +1,455 @@
+.register {
+    padding: 150px 0px;
+    padding: 15rem 0px;
+}
+
+.register h3 {
+    text-align: center;
+}
+
+.flow-wrap {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-top: 15rem;
+    padding: 0px 115px 0px 144px;
+    padding: 0px 11.5rem 0px 14.4rem;
+}
+
+.flow-article {
+    width: 370px;
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+
+.flow-article h4 {
+    line-height: 1;
+}
+
+.flow-article h5 {
+    line-height: 2;
+}
+
+.flow-article:nth-child(2n) {
+    transform: translate(0%, 43%);
+}
+
+.flow-article__image,
+.flow-article__image img {
+    width: 100%;
+}
+
+.flow-article__image {
+    position: relative;
+}
+
+.flow-article__image::before {
+    background-color: white;
+    font-size: 18px;
+    color: #3a7db5;
+    text-align: center;
+    font-family: 'kozgopro-b';
+    width: 90px;
+    height: 27px;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 1.8rem;
+    width: 9rem;
+    height: 2.7rem;
+    left: 1rem;
+}
+
+.flow-article:nth-child(1) .flow-article__image::before {
+    content: '約1分';
+}
+
+.flow-article:nth-child(2) .flow-article__image::before {
+    content: '最短1日';
+}
+
+.flow-article:nth-child(3) .flow-article__image::before {
+    content: '最短1日';
+}
+
+.flow-article:nth-child(4) .flow-article__image::before {
+    content: '最短2日';
+}
+
+.flow-article:nth-child(5) .flow-article__image::before {
+    content: '最短1週間';
+}
+
+.easy-picture.easy-picture__bottom {
+    background: transparent url(../images/our_service.png) no-repeat top center;
+    background-size: cover;
+}
+
+.easy-text.easy-text__bottom {
+    padding: 96px 60px;
+    padding: 9.6rem 6rem;
+}
+
+.easy-text.easy-text__bottom p {
+    margin: 30px;
+    margin: 3rem;
+    text-align: left;
+}
+
+.easy-text__bottom>div {
+    flex-wrap: wrap;
+}
+
+.easy-text__bottom>div>a {
+    margin: 0.5rem;
+}
+
+.company {
+    width: 100%;
+    margin: auto;
+    padding: 80px 10px;
+    padding: 8rem 1rem;
+}
+
+.company h3 {
+    margin-bottom: 60px;
+    margin-bottom: 6rem;
+}
+
+.company-image-wrap {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.company-image-wrap a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.company-image-wrap img {
+    width: 80%;
+}
+
+.study {
+    background: transparent url(../images/middle_bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.study-article__wrap {
+    padding: 61px 0px;
+    padding: 6.1rem 0px;
+}
+
+.study-article {
+    width: 370px;
+    padding: 8px 10px;
+    margin: 0px 15px;
+    justify-content: flex-start;
+}
+
+.study-article__image {
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.study-article h5 {
+    margin: 20px auto 22px;
+    line-height: 1.5;
+}
+
+.study-article p {
+    line-height: 1.5;
+}
+
+.study-article__wrap h4 {
+    margin: 60px 50px 0px;
+    margin: 6rem 5rem 0px;
+}
+
+.study-article__wrap>div {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.accessmap {
+    padding: 105px 0px 132px;
+    padding: 10.5rem 0px 13.2rem;
+}
+
+.accessmap h3 {
+    margin-bottom: 84px;
+    margin-bottom: 8.4rem;
+}
+
+.accessmap-text {
+    width: 50%;
+    padding: 0px 15px;
+    padding: 0px 1.5rem;
+}
+
+.accessmap-text p {
+    line-height: 1.5;
+}
+
+.accessmap-text h4 {
+    line-height: 2;
+    margin-top: 0.5rem;
+}
+
+.accessmap-map {
+    width: 50%;
+    margin-right: -10%;
+}
+
+.accessmap-map img {
+    width: 110%;
+}
+
+.onlinecounsel {
+    background: transparent url(../images/footer_bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.onlinecounsel-wrap {
+    padding: 132px 10px 113px;
+    padding: 13.2rem 1rem 11.3rem;
+}
+
+.onlinecounsel-wrap p {
+    max-width: 925px;
+    margin: 38px 0px 72px;
+    margin: 3.8rem 0px 7.2rem;
+}
+
+.button-onlinecounsel {
+    width: 362px;
+    height: 47px;
+    align-self: center;
+    width: 36.2rem;
+    height: 4.7rem;
+}
+
+.about-wrap {
+    padding: 84px 15px 88px;
+    padding: 8.4rem 1.5rem 8.8rem;
+}
+
+.about-wrap h3 {
+    margin-bottom: 35px;
+    margin-bottom: 3.5rem;
+}
+
+.about-wrap__text {
+    padding-top: 70px;
+    padding-top: 7rem;
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.about-wrap p,
+.about-wrap h4 {
+    line-height: 1.5;
+}
+
+.about-wrap h4 {
+    max-width: 690px;
+    margin: auto;
+}
+
+footer {
+    background-color: #333844;
+}
+
+.footer-banner ul {
+    margin: 0px auto;
+}
+
+.footer-banner ul li:nth-child(1) {
+    margin: 10px auto;
+    margin: 1rem auto;
+}
+
+.footer-banner {
+    padding: 54px 0px 38px;
+    padding: 5.4rem 0px 3.8rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-bar {
+    height: 74px;
+    height: 7.4rem;
+    border-top: 1px solid #71747c;
+}
+
+.onlinecounsel button:hover,
+.company a:hover {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0.7;
+}
+
+.footer-banner a {
+    color: white;
+}
+
+@media only screen and (max-width: 1280px) {
+    .easy-text__bottom>div {
+        justify-content: space-around;
+    }
+    .easy-text.easy-text__bottom {
+        padding: 30px 20px;
+        padding: 3rem 2rem;
+    }
+    .easy-text.easy-text__bottom p {
+        margin: 12px;
+        margin: 1.2rem;
+    }
+    .company-image-wrap a {
+        width: 30%;
+    }
+    .company-image-wrap a img {
+        width: 30%;
+    }
+    .study-article {
+        margin-bottom: 5rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .flow-wrap {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 50px;
+    }
+    .flow-article:nth-child(2n) {
+        transform: translate(0%, 0%);
+    }
+    .accessmap-wrap {
+        flex-direction: column;
+    }
+    .accessmap-text,
+    .accessmap-map {
+        width: 100%;
+        margin: 0px;
+    }
+    .accessmap-map img {
+        width: 100%;
+    }
+    .accessmap-text {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .about-wrap__text {
+        column-count: 1;
+    }
+    .company-image-wrap a img {
+        width: 50%;
+    }
+    .flow-article__image::before {
+        width: 80px;
+        height: 27px;
+        bottom: 0px;
+        left: 10px;
+        font-size: 15px;
+    }
+    .onlinecounsel-wrap h3,
+    .study-article__wrap h4 {
+        line-height: 1.7;
+    }
+    .flow-article h5 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .flow-wrap {
+        padding: 30px;
+    }
+    .company-image-wrap a img {
+        width: 60%;
+    }
+    .register {
+        padding: 70px 0px;
+        padding: 7rem 0px 1rem;
+    }
+    .flow-wrap {
+        margin-top: 50px;
+        margin-top: 5rem;
+    }
+    .button-onlinecounsel {
+        width: 43.2rem;
+    }
+    .font-18 {
+        font-size: 13px;
+    }
+    .font-16 {
+        font-size: 12px;
+    }
+    .font-14 {
+        font-size: 11px;
+    }
+    .button-onlinecounsel {
+        height: 6rem;
+    }
+    .easy-text.easy-text__bottom p {
+        margin: 25px;
+        margin: 2.5rem;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .flow-article {
+        width: 100%;
+    }
+    .flow-wrap {
+        padding: 10px;
+    }
+    .study-article h5 {
+        font-size: 25px;
+        font-size: 2.5rem;
+    }
+    p,
+    .about-wrap__text p,
+    .study-article p {
+        font-size: 23px;
+        font-size: 2.3rem;
+    }
+    .company-image-wrap a img {
+        width: 70%;
+    }
+    .font-18 {
+        font-size: 2.5rem;
+    }
+    .font-16 {
+        font-size: 2.3rem;
+    }
+    .font-14 {
+        font-size: 2rem;
+    }
+    .custom-select {
+        font-size: 2.3rem;
+    }
+    .footer-banner li {
+        font-size: 2rem;
+    }
+    .easy-text__circle h3 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 325px) {
+    .company-image-wrap a img {
+        width: 80%;
+    }
+}

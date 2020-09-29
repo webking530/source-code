@@ -1,0 +1,339 @@
+body {
+    /* background-image: url(../images/1111.png); */
+}
+
+.d-flex {
+    display: flex;
+}
+
+.j-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.j-c {
+    display: flex;
+    justify-content: center;
+}
+
+.j-a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-c {
+    text-align: center;
+}
+
+.d-flex-c {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.full-width {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.wrapper {
+    margin: 0px auto;
+    overflow-x: hidden;
+}
+
+.ta-c {
+    text-align: center;
+}
+
+button,
+.button-type {
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    cursor: text;
+}
+
+.button--bc-blue {
+    background-color: #3a7db5;
+    border: 1px solid #3a7db5;
+    color: white;
+}
+
+.button--bc-white {
+    background-color: white;
+}
+
+.button--bc-light {
+    background-color: #e6e6e6;
+    border: 1px solid #e6e6e6;
+}
+
+.button--bd-blue {
+    border: 1px solid #3a7db5;
+}
+
+.button--bd-grey {
+    border: 1px solid #8c8c8c;
+}
+
+.button--bd-light {
+    border: 1px solid #e1e1e1;
+}
+
+.fc-blue {
+    color: #3a7db5;
+}
+
+.fc-black {
+    color: #333333;
+}
+
+.fc-dark {
+    color: #555555;
+}
+
+.fc-darkness {
+    color: #8c8c8c;
+}
+
+.fc-grey {
+    color: #777777;
+}
+
+.fc-greyness {
+    color: #999999;
+}
+
+.fc-light {
+    color: #aaaaaa;
+}
+
+.fc-white {
+    color: white;
+}
+
+.ff-r {
+    font-family: 'kozgopro-r';
+}
+
+.ff-b {
+    font-family: 'kozgopro-b';
+}
+
+.ff-l {
+    font-family: 'kozgopro-l';
+}
+
+.ff-m {
+    font-family: 'kozgopro-m';
+}
+
+.ff-h {
+    font-family: 'kozgopro-h';
+}
+
+.font-12 {
+    font-size: 12px;
+    font-size: 1.2rem;
+}
+
+.font-14 {
+    font-size: 14px;
+    font-size: 1.4rem;
+}
+
+.font-15 {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.font-16 {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.font-18 {
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+.font-20 {
+    font-size: 20px;
+    font-size: 2rem;
+}
+
+.font-21 {
+    font-size: 21px;
+    font-size: 2.1rem;
+}
+
+.font-22 {
+    font-size: 22px;
+    font-size: 2.2rem;
+}
+
+.font-23 {
+    font-size: 23px;
+    font-size: 2.3rem;
+}
+
+.font-24 {
+    font-size: 24px;
+    font-size: 2.4rem;
+}
+
+.font-25 {
+    font-size: 25px;
+    font-size: 2.5rem;
+}
+
+.font-26 {
+    font-size: 26px;
+    font-size: 2.6rem;
+}
+
+.font-27 {
+    font-size: 27px;
+    font-size: 2.7rem;
+}
+
+.font-28 {
+    font-size: 28px;
+    font-size: 2.8rem;
+}
+
+.font-29 {
+    font-size: 29px;
+    font-size: 2.9rem;
+}
+
+.font-30 {
+    font-size: 30px;
+    font-size: 3.0rem;
+}
+
+.font-31 {
+    font-size: 31px;
+    font-size: 3.1rem;
+}
+
+.font-33 {
+    font-size: 33px;
+    font-size: 3.3rem;
+}
+
+.font-34 {
+    font-size: 34px;
+    font-size: 3.4rem;
+}
+
+.font-35 {
+    font-size: 35px;
+    font-size: 3.5rem;
+}
+
+.font-36 {
+    font-size: 36px;
+    font-size: 3.6rem;
+}
+
+.font-38 {
+    font-size: 38px;
+    font-size: 3.8rem;
+}
+
+.font-40 {
+    font-size: 40px;
+    font-size: 4.0rem;
+}
+
+.font-41 {
+    font-size: 41px;
+    font-size: 4.1rem;
+}
+
+.font-45 {
+    font-size: 45px;
+    font-size: 4.5rem;
+}
+
+.font-46 {
+    font-size: 46px;
+    font-size: 4.6rem;
+}
+
+.font-47 {
+    font-size: 47px;
+    font-size: 4.7rem;
+}
+
+.font-48 {
+    font-size: 48px;
+    font-size: 4.8rem;
+}
+
+.font-49 {
+    font-size: 49px;
+    font-size: 4.9rem;
+}
+
+.font-53 {
+    font-size: 53px;
+    font-size: 5.3rem;
+}
+
+.font-61 {
+    font-size: 61px;
+    font-size: 6.1rem;
+}
+
+.font-73 {
+    font-size: 73px;
+    font-size: 7.3rem;
+}
+
+.font-96 {
+    font-size: 96px;
+    font-size: 9.6rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: #01AED2;
+}
+
+
+/* hover */
+
+button,
+.button-type,
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}

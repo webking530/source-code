@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'kozgopro-r';
+    src: url('../fonts/KozGoPro-Regular.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'kozgopro-b';
+    src: url('../fonts/KozGoPro-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'kozgopro-l';
+    src: url('../fonts/KozGoPro-Light.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'kozgopro-m';
+    src: url('../fonts/KozGoPro-Medium.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'kozgopro-h';
+    src: url('../fonts/KozGoPro-Heavy.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
